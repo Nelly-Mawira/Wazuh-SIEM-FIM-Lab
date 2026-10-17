@@ -1,0 +1,8 @@
+# Ignore generated SSL certs & secrets
+wazuh-docker/single-node/config/wazuh_indexer_ssl_certs/
+*.sbn
+*.pem
+*.key
+
+# Ignore raw installer packages
+*.deb
